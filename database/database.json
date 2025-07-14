@@ -1,0 +1,30 @@
+{
+  "profesores": [
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "email": "juan@ejemplo.com",
+      "carga_horaria": 20
+    },
+    {
+      "id": 2,
+      "nombre": "Catalina Aguilera",
+      "email": "caguilera@gmail.com",
+      "carga_horaria": 44
+    }
+  ],
+  "cursos": [
+    {
+      "id": 1,
+      "nombre": "Matemáticas",
+      "duracion": 40
+    }
+  ],
+  "salas": [
+    {
+      "id": 1,
+      "nombre": "Sala A",
+      "capacidad": 30
+    }
+  ]
+}
