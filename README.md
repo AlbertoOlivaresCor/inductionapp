@@ -54,7 +54,7 @@ Las dependencias principales usadas en el proyecto son:
 ## Ejemplo de uso en Thunder Client
 
 Crear un profesor:
-```T
+```
 POST http://localhost:3000/profesores "Content-Type: application/json" '{
     "id": 2,
     "nombre": "Catalina Ortiz",
@@ -63,13 +63,13 @@ POST http://localhost:3000/profesores "Content-Type: application/json" '{
   }'
 ```
 
-Listar cursos:
+Listar profesores:
 ```
 GET http://localhost:3000/profesores
 ```
 
-Actualizar una sala:
-```powershell
+Actualizar un profesor:
+```
 PUT http://localhost:3000/profesores/:id "Content-Type: application/json" '{
     "id": 2,
     "nombre": "Catalina Ortiz",
@@ -79,7 +79,7 @@ PUT http://localhost:3000/profesores/:id "Content-Type: application/json" '{
 ```
 
 Eliminar un profesor:
-```powershell
+```
 DELETE http://localhost:3000/profesores/:id
 ```
 
