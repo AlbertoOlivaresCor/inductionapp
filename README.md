@@ -12,7 +12,8 @@ Aplicación Node.js para la gestión de cursos, profesores y salas usando archiv
 1. Clona el repositorio o copia la carpeta `inductionapp` en tu máquina.
 2. Abre una terminal en la carpeta del proyecto.
 3. Instala las dependencias ejecutando:
-   ```npm install express pg dotenv jsonwebtoken bcryptjs 
+   ```
+   npm install express pg dotenv jsonwebtoken bcryptjs 
    npm install -D nodemon
    npm install -g firebase-tools 
    ```
